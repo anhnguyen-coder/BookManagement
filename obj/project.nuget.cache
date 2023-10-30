@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6sG/YuG4yIkcwUa+bm/PDp9d0aS63MsvTxyvzOy8TBhKjc9zfQvuyTMXsdtX2/nRtSzjcnNy6Kek0LuZNgIH7w==",
+  "dgSpecHash": "7FP7FQi1LIlHZJaWumyPHBpQLD8N0s2Dqq4sIboW6Yihfu3otXWSjDzMYBxAWH2bYNBVRfcfCK8giKXkJTfftg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\ASP.NET\\BookManagement\\BookManagement.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\ASP.NET\\ASP-GCH1101-NguyenDucAnhMinhAnhQuocBao\\BookManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
