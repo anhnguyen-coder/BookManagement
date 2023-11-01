@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7YkBWWq5ETtrYPFn2fzwtRcxjHjiDgAAw/8N8VuXAgc=",
+  "Hash": "bMf9GNQEmBepNiu/pepnKKkeFSNMuOuog2fd/ItwW5k=",
   "Source": "BookManagement",
   "BasePath": "_content/BookManagement",
   "Mode": "Default",
@@ -1137,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\lejonhjärta.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\ASP.NET\\BookManagement\\wwwroot\\images\\logo.png",
+      "SourceId": "BookManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\ASP.NET\\BookManagement\\wwwroot\\",
+      "BasePath": "_content/BookManagement",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\ASP.NET\\BookManagement\\wwwroot\\images\\lotr.jpg",

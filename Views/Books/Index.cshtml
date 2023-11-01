@@ -16,69 +16,45 @@
     }
 }
 
-<h1>Index</h1>
+<div class="container">
+    <h1 class="mt-4">Book List</h1>
+    <a asp-action="Create" class="btn btn-primary mb-3"><i class="fa-solid fa-plus"></i> Add Book</a>
 
-<p>
-    <a asp-action="Create" class="btn btn-primary"><i class="fa-solid fa-book"></i> Add Book</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Author)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Language)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ISBN)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DatePublished)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                Has image
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Title)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Author)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Language)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ISBN)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DatePublished)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
-                <td>
-                    <i class="@HasImage(item)"></i>
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></a>
-                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success"><i class="fa-solid fa-circle-info"></i></a>
-                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i></a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Language</th>
+                    <th>ISBN</th>
+                    <th>Date Published</th>
+                    <th>Price</th>
+                    <th>Image</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var book in Model)
+                {
+                    <tr>
+                        <td>@book.Title</td>
+                        <td>@book.Author</td>
+                        <td>@book.Language</td>
+                        <td>@book.ISBN</td>
+                        <td>@book.DatePublished.ToShortDateString()</td>
+                        <td>@book.Price.ToString("C")</td>
+                        <td><i class="fa-solid @HasImage(book)"></i></td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-primary btn-sm"><i class="fa-solid fa-pen-to-square"></i></a>
+                            <a asp-action="Details" asp-route-id="@book.Id" class="btn btn-success btn-sm"><i class="fa-solid fa-circle-info"></i></a>
+                            <a asp-action="Delete" asp-route-id="@book.Id" class="btn btn-danger btn-sm"><i class="fa-solid fa-trash-can"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+

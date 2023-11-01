@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\lejonhjärta.jpg"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.NET\\BookManagement\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\ASP.NET\\BookManagement\\wwwroot\\images\\lotr.jpg",
       "PackagePath": "staticwebassets\\images\\lotr.jpg"
     },

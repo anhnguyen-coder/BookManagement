@@ -40,3 +40,8 @@ input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
+.logo-image {
+    max-height: 20px; /* Adjust this value to control the height of your logo */
+    width: auto; /* Maintain the aspect ratio while setting a max height */
+}

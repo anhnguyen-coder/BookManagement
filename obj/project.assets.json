@@ -11500,11 +11500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ASP.NET\\ASP-GCH1101-NguyenDucAnhMinhAnhQuocBao\\BookManagement.csproj",
-      "projectName": "BookManagement",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\ASP.NET\\ASP-GCH1101-NguyenDucAnhMinhAnhQuocBao\\BookManagement.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ASP.NET\\BookManagement\\ASP_GCH1101_NguyenDucAnhMinhAnhQuocBao_A2.csproj",
+      "projectName": "ASP_GCH1101_NguyenDucAnhMinhAnhQuocBao_A2",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\ASP.NET\\BookManagement\\ASP_GCH1101_NguyenDucAnhMinhAnhQuocBao_A2.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\ASP.NET\\ASP-GCH1101-NguyenDucAnhMinhAnhQuocBao\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\ASP.NET\\BookManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
